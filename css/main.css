@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+}
+
+.day{
+    padding:10px;
+}
+.grid-calendar{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
