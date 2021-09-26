@@ -3,35 +3,129 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Landing Page</title>
+        <title>Contact Form</title>
         <style>
-        ul{
-            list-style-type: none;
-            
-        }
-        
+
         </style>
-        <link href="css/main.css" rel="stylesheet">
+        <link href="../css/main.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
     <!-- navigation pane-->
-    <nav class="navbar navbar-expand navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-expand navbar-light bg-white shadow">
         <div class="container-fluid">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="../index.html">Landing Page</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Landing Page</a>
                 <a class="nav-link" href="#">Portfolio</a>
                 <a class="nav-link" href="#">Timeline</a>
                 <a class="nav-link" href="#">Projects</a>
-                <a class="nav-link" href="src/contact _form.html">Contact Form</a>
+                <a class="nav-link active" href="../src/contact _form.html">Contact Form</a>
             </div>
         </div>
     </nav>
 
     <!--header-->
+    <div class="container text-center mt-3">
+        <h3>Contact Form</h3>
+    </div>
     
     <!--main content-->
+    <form class="container px-5 py-3 bg-dark text-white">
+        <div class="">
+            <div class="py-2 d-flex row">
+                <div class="input-group col">
+                    <span class="input-group-text">First Name</span>
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                </div>
+                <div class="input-group col">
+                    <span class="input-group-text">Last Name</span>
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+                <div class="input-group col">
+                    <span class="input-group-text">Email</span>
+                    <input type="text" class="form-control" placeholder="Email" required>
+                </div>
+                
+            </div>
+            <div class="py-3 d-flex row">
+                <div class="input-group col">
+                    <label class="input-group-text">What best describes you?</label>
+                    <select class="form-select" id="selectGroup1">
+                    <option selected>Choose...</option>
+                    <option value="1">Developer</option>
+                    <option value="2">Music Lover</option>
+                    <option value="3">Gamer</option>
+                    <option value="4">None of the Above</option>
+                    </select>
+                </div>
+                
+                <div class="input-group col">
+                    <span class="input-group-text">Age</span>
+                    <input type="number" class="form-control" placeholder="Age" required>
+                </div>
+                
+            </div>
+            <div class="input-group col">
+                <span class="input-group-text">What kind of games do you play? (You can choose none of them)</span>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="RPG" >RPG
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Strategy" >Strategy
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Turn-Based" >Turn-Based
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Rhythm" >Rhythm
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Action" >Action
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="FPS" >FPS
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Turn-Based" >Turn-Based
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Puzzles" >Puzzles
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Fighting Games" >Fighting Games
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Visual Novels" >Visual Novels
+                </label>
+                <label for="rpgBox" class="form-check-label m-1">
+                    <input type="checkbox" name="games" class="form-check-input mx-1" value="Sports" >Sports
+                </label>
+                
+            </div>
+            <div class="input-group col align-items-center">
+                <span class="input-group-text">Do you listen to game OSTs?</span>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input mx-2" name="ost" value="Yes">Yes
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input mx-2" name="ost" value="No">No
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input mx-2" name="ost" value="Just a little">Just a little
+                </label>
+            </div>
+            <div class="col">
+                (optional) comments or suggestions <br>
+                <textarea class="w-25">
 
+                </textarea>
+            </div>
+            </div>
+            
+        </div>
+        <div class="text-center">
+            <input type="submit" value="Submit"></div>
+    </form>
     
 
     <!-- footer-->
@@ -45,7 +139,7 @@
               </ul>
         </div>
         <div class="col">
-
+            
         </div>
     </div>
     </footer>
