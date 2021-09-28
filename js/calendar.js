@@ -1,6 +1,5 @@
 function myFunction(){
   let year = document.getElementById("year-input").value;
-  console.log(year);
 
   function checkLeap(year){
     let leap = false;
@@ -21,9 +20,6 @@ function myFunction(){
     }
     else //not divided by 4
       leap = false;
-  
-      console.log(leap);
-
       return leap;
     };
 
@@ -80,15 +76,12 @@ function myFunction(){
 
   ]
   let dayOfWeek = year % 7 ;
-  console.log(dayOfWeek);
 
   if (checkLeap(year)){
     months[1].maxDays = 29;
-    console.log(months[1])
   }
   else{
   months[1].maxDays=28; //set February max days depending if leap year
-  console.log(months[1])
   }
 
 
@@ -105,11 +98,9 @@ function myFunction(){
     for(;y < 17 || y > 20;){
       if(y<17){
         y+=4;
-        console.log("<17");
       }
       else if(y>20){
         y-=4;
-        console.log(">20");
       }
       
       
@@ -141,7 +132,6 @@ function myFunction(){
     if (startDay == -1){
       startDay = 6;
     }
-    console.log(startDay);
     return startDay;
   }
   checkYear(year);
@@ -157,7 +147,7 @@ function myFunction(){
     for(i=0;i!=12;i++){// 12 month loop
 
       let y = myTable[i].getElementsByTagName('th');
-      // console.log(y[0].innerHTML) //name motnhs
+
         for(j=0;j!=42;j++){ //clear all cells
           let x = myTable[i].getElementsByClassName("day");
           x[j].innerHTML="&nbsp;";
@@ -166,14 +156,12 @@ function myFunction(){
         
         for(j = dayOfWeek % 7 ,day=0; day < months[i].maxDays ; dayOfWeek++ , j++,day++ ){
           try {
-            //console.log("j value: " +j)
-            //console.log(months[i].maxDays);
+
           
           
           let x = myTable[i].getElementsByClassName("day");
           x[j].innerHTML=day+1;
-          //console.log("day of Week: "+dayOfWeek);
-          //console.log("day" + x[j].innerHTML);
+
           } catch (error) {
             
           }
