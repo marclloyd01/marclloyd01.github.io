@@ -138,7 +138,7 @@ function myFunction(){
     
 
     let startDay = (val % 7) - 1;
-    if (startDay = -1){
+    if (startDay == -1){
       startDay = 6;
     }
     console.log(startDay);
