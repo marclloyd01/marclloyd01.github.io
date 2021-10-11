@@ -36,7 +36,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="d-flex flex-column justify-flex-end">
         
         <Nav/>
         <Switch> 

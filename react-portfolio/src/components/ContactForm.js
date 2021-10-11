@@ -50,8 +50,8 @@ const ContactForm = ({onAdd}) => {
     
 
     return (
-        <>
-        <div className = 'container text-center' style={{marginTop:'60px'}}>
+        <div className = '' style={{marginTop:'60px',marginBottom:'120px'}}>
+        <div className = 'container text-center'>
             <h3>Contact Form</h3>
         </div>
         <form className = 'container px-5 py-3 bg-dark text-white' onSubmit = {onSubmit}>
@@ -171,7 +171,7 @@ const ContactForm = ({onAdd}) => {
             </div>
         </form>
         
-        </>
+        </div>
     )
 }
 

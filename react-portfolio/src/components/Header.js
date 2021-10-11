@@ -2,7 +2,7 @@ import picture from './image.png'
 
 const Header = () => {
     return (
-        <div className = 'text-white align-items-center bg-dark ' style ={{marginTop: '60px'}}>
+        <div className = 'text-white align-items-center bg-dark '>
             <div className = 'row container-fluid align-items-center'>
                 <div className = 'col-md-auto'>
                     <img src = {picture} className = 'rounded-circle'/>

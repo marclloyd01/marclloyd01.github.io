@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <footer className = 'bg-dark py-2 mt-4 fixed-bottom'>
+        <footer className = 'bg-dark fixed-bottom'>
             <div className = 'd-flex container-fluid text-white'>
                 <div className = 'col align-text-left'>
                     <h3>Contact</h3>

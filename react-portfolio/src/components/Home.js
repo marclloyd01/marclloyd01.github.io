@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <Header/>
-            <div className ='d-flex text-center mb-4'>
+            <div className ='d-flex text-center'>
                 <div className = 'col bg-light'>
                     <h1 className = 'display-5'>Projects</h1>
                     <div className = 'row container-fluid'>

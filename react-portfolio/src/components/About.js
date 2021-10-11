@@ -1,7 +1,7 @@
 
 const About = ({infos}) => {
     return (
-        <div className = 'container' style={{marginTop:'60px'}}>
+        <div className = 'container' style={{marginTop:'60px',marginBottom:'120px'}}>
             <h3>About Page</h3>
             <label>First Name</label>
             <p>{infos.firstName}</p>
