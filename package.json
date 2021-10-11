@@ -1,5 +1,5 @@
 {
-  "homepage":"https://marclloyd01.github.io/src/Projects/",
+  "homepage": "https://marclloyd01.github.io/src/Projects/",
   "name": "shopping",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
+    "react-app": "^1.1.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
