@@ -12,15 +12,32 @@
 </head>
 <body>
     <!-- navigation pane-->
-    <nav class="navbar navbar-expand navbar-light bg-white border p-1">
-        <div class="container-fluid justify-content-start">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-white border p-1">
+        <div class="container-fluid">
             <label class="navbar-brand">HTML</label>
-            <div class="navbar-nav overflow-auto">
-                <a class="nav-link text-nowrap" aria-current="page" href="../index.html">Landing Page</a>
-                <a class="nav-link" href="#">Portfolio</a>
-                <a class="nav-link" href="timeline.html">Timeline</a>
-                <a class="nav-link" href="projects.html">Projects</a>
-                <a class="nav-link active text-nowrap" href="../src/contact _form.html">Contact Form</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id= "navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap" aria-current="page" href="../index.html">Landing Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="timeline.html">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap active" href="contact _form.html">Contact Form</a>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </nav>
