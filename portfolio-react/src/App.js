@@ -9,7 +9,7 @@ import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
 import About from './components/About';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import {useState} from 'react'
 
 

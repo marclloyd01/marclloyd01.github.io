@@ -12,9 +12,9 @@ const Home = () => {
                 <div className="col-md-6 col-sm-12">
                     <h3>Header</h3>
                     
-                        <p><a href="src/Projects/calendar.html" className="link-dark">Calendar JavaScript</a></p>
-                        <p><a href="build/index.html" className="link-dark">React App</a></p>
-                        <p><a href="react-portfolio/" className="link-dark">React Portfolio</a></p>
+                        <p><a href="https://marclloyd01.github.io/src/Projects/calendar.html" className="link-dark">Calendar JavaScript</a></p>
+                        <p><a href="https://marclloyd01.github.io/build/index.html" className="link-dark">React App</a></p>
+                        <p><a href="https://marclloyd01.github.io/react-portfolio/" className="link-dark">React Portfolio</a></p>
                     
                     </div>
                 <div className="col-md-6 col-sm-12" >
