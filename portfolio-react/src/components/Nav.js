@@ -11,10 +11,10 @@ const Nav = () => {
                 <div className = 'collapse navbar-collapse' id="navbarSupportedContent">
                     <ul className = 'navbar-nav'>
                         <li className = 'nav-item'>
-                        <Link to= '/react-portfolio'className = 'nav-link text-nowrap'>Landing Page</Link>
+                        <Link to= '/'className = 'nav-link text-nowrap'>Landing Page</Link>
                         </li>
                         <li className = 'nav-item'>
-                        <Link to= '/react-portfolio'className = 'nav-link '>Portfolio</Link>
+                        <Link to= '/'className = 'nav-link '>Portfolio</Link>
                         </li>
                         <li className = 'nav-item'>
                         <Link to= '/timeline'className = 'nav-link '>Timeline</Link>

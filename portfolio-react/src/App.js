@@ -40,7 +40,7 @@ function App() {
         
         <Nav/>
         <Switch> 
-          <Route path = '/react-portfolio' exact component = {Home}/>
+          <Route path = '/' exact component = {Home}/>
           <Route path = '/timeline' component = {Timeline}/>
           <Route path = '/projects' component = {Projects}/>
           <Route path = '/contactForm'>
