@@ -12,7 +12,7 @@ const Projects = () => {
                 <Frame title = 'Portfolio' src = 'https://marclloyd01.github.io/index.html'/>
                 <Frame title = 'Calendar JavaScript' src = 'https://marclloyd01.github.io/src/Projects/calendar.html'/>
                 <Frame title = 'React App' src = 'https://marclloyd01.github.io/build/index.html'/>
-                <Frame title = 'Portfolio with React' src = 'react-portfolio'/>
+                <Frame title = 'Portfolio with React' src = 'https://marclloyd01.github.io/react-portfolio/'/>
             </div>
         </div>
         </>
