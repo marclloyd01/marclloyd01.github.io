@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "./static/css/main.53e88739.chunk.css",
     "main.js": "./static/js/main.2f5b201c.chunk.js",
     "main.js.map": "./static/js/main.2f5b201c.chunk.js.map",
@@ -18,5 +19,18 @@
     "static/js/2.e023d4b1.chunk.js",
     "static/css/main.53e88739.chunk.css",
     "static/js/main.2f5b201c.chunk.js"
+=======
+    "main.css": "./static/css/main.864c305a.css",
+    "main.js": "./static/js/main.8946b91e.js",
+    "static/js/787.20abfe3e.chunk.js": "./static/js/787.20abfe3e.chunk.js",
+    "index.html": "./index.html",
+    "main.864c305a.css.map": "./static/css/main.864c305a.css.map",
+    "main.8946b91e.js.map": "./static/js/main.8946b91e.js.map",
+    "787.20abfe3e.chunk.js.map": "./static/js/787.20abfe3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.864c305a.css",
+    "static/js/main.8946b91e.js"
+>>>>>>> parent of 3c6d70f (add demo ChartJS)
   ]
 }
