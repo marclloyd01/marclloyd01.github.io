@@ -4,6 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact Form</title>
+        <!-- loads EmailJS SDK -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/integration
+                emailjs.init("user_j4ULTrjbib35gu1MBHaei");
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    // generate a five digit number for the contact_number variable
+                    this.contact_number.value = Math.random() * 100000 | 0;
+                    // these IDs from the previous steps
+                    emailjs.sendForm('contact_service', 'contact_form', this)
+                        .then(function() {
+                            console.log('SUCCESS!');
+                            const notificationArea = document.querySelector("#form-notification")
+                            notificationArea.hidden = false
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                        });
+                });
+            }
+        </script>
         <style>
 
         </style>
@@ -43,15 +69,16 @@
     </nav>
 
     <!--header-->
-    <div class="container text-center mt-3">
+    <div class="container text-center mt-5">
         <h3>Contact Form</h3>
     </div>
     
     <!--main content-->
-    <form class="container px-5 py-3 bg-dark text-white" onsubmit="handleSubmit(event)" id="contact_form">
+    <form class="container px-5 py-3 bg-dark text-white" id="contact-form">
         <div class="">
             <div class="py-2 d-flex row">
                 <div class="input-group col">
+                    <input type="hidden" name="contact_number">
                     <span class="input-group-text">First Name</span>
                     <input type="text" class="form-control" placeholder="First Name" name="firstName" required>
                 </div>
@@ -61,7 +88,7 @@
                 </div>
                 <div class="input-group col">
                     <span class="input-group-text">Email</span>
-                    <input type="text" class="form-control" placeholder="Email" name="email"required>
+                    <input type="text" class="form-control" placeholder="Email" name="user_email"required>
                 </div>
                 
             </div>
@@ -139,7 +166,10 @@
             
         </div>
         <div class="text-center">
-            <input type="submit" ></div>
+            <input type="submit" value="Send" >
+            <p class="w-100 text-end" id="form-notification">Form sent successfully!</p>
+        </div>
+        
     </form>
     
 
