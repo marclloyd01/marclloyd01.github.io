@@ -1,143 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Landing Page</title>
-    <style></style>
-    <link href="css/main.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- navigation pane-->
-    <nav
-      class="navbar navbar-expand-sm navbar-light fixed-top bg-white border p-1"
-    >
-      <div class="container-fluid">
-        <label class="navbar-brand">HTML</label>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link text-nowrap active"
-                aria-current="page"
-                href="index.html"
-                >Landing Page</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="src/timeline.html">Timeline</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="src/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-nowrap" href="src/contact_form.html"
-                >Contact Form</a
-              >
-            </li>
-          </ul>
+    <main>
+      <section id="home">
+        <div id="container">
+          <div id="image-div">
+            <img src="1x1_image.png" id="profile-image" />
+          </div>
+          <div>
+            <h1>Lloyd Menguito</h1>
+            <h3>Web Developer</h3>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <!--header-->
-    <div class="text-white align-items-center bg-dark py-2 mt-5">
-      <div class="row container-fluid align-items-center">
-        <div class="col-sm-auto col-xs-12 text-center">
-          <img src="assets/img/image.png" class="rounded-circle" />
-        </div>
-        <div class="col-sm-auto col-xs-12 text-center text-sm-start">
-          <h1 class="display-5">Marc Lloyd Menguito</h1>
-          <h2 class="display-6">Junior Developer</h2>
-        </div>
-      </div>
-    </div>
-    <!--main content-->
-
-    <div class="d-flex text-center flex-column pb-5 container">
-      <h1 class="display-5">Projects</h1>
-      <div class="row container-fluid">
-        <div class="col-md-6 col-sm-12">
-          <h3>Header</h3>
-
-          <p>
-            <a href="src/projects/calendar.html" class="link-dark"
-              >Calendar JavaScript</a
-            >
-          </p>
-          <p><a href="build/index.html" class="link-dark">React App</a></p>
-          <p>
-            <a href="react-portfolio/" class="link-dark">React Portfolio</a>
-          </p>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <h3>Header</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh
-          ipsum, tristique et velit finibus, dapibus efficitur nulla. Proin
-          auctor id justo ac rutrum. Fusce elementum euismod libero id eleifend.
-          Phasellus at egestas enim. Ut a sodales libero, nec faucibus magna.
-          Praesent mauris orci, fringilla eu suscipit at, tempus eu nunc. Nam id
-          odio tincidunt, tincidunt ligula in, sodales lectus.
-        </div>
-      </div>
-    </div>
-
-    <!-- footer-->
-    <footer class="responsive-footer-bottom-fixed-md bg-dark py-2">
-      <div class="row container-fluid text-white">
-        <div class="col-md-6 col-sm-12">
-          <h3>Contact</h3>
-          <ul>
-            <li>09568434336</li>
-            <li>lloydmenguito@gmail.com</li>
-          </ul>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <h3>Resources</h3>
-          <ul>
-            <li>
-              <a
-                href="https://developer.mozilla.org/en-US/"
-                target="_blank"
-                class="link-light"
-                >Developer Mozilla</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.w3schools.com/"
-                target="_blank"
-                class="link-light"
-                >w3schools</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>

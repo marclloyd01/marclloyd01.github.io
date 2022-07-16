@@ -1,0 +1,24 @@
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+}
+#home {
+}
+#container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  margin: 0 auto;
+}
+#image-div {
+  width: 10%;
+}
+#profile-image {
+  width: 100%;
+  border-radius: 50%;
+}
