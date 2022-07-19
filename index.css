@@ -1,45 +1,86 @@
-:root {
-  --color1: #ff2fff;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* WELCOME SECTION */
-/* #welcome {
-  height: 93.5vh;
-} */
+
 #name-container {
-  text-align: left;
   /* margin: 0 auto; */
-  width: 30%;
 }
-#img-container {
+.full-name {
+  /* text-decoration: underline; */
+  font-size: 35px;
+}
+.work-position {
+  font-size: 25px;
+  font-family: "Kaushan Script";
+}
+#photo-container {
   width: 25%;
 }
 #profile-image {
   width: 100%;
+  border: 5px solid rgb(250, 250, 250);
   border-radius: 50%;
 }
 /* PROJECTS SECTION */
 #projects {
-  background: rgb(33, 37, 41);
-  color: white;
-  text-align: center;
+  /* background-color: rgb(23, 29, 33); */
+  background-color: rgb(250, 250, 250);
 }
-.project-img-container {
-  height: 400px;
-  border: 1px solid white;
-}
-.project-img-container:hover {
-  filter: brightness(90%);
+.project-image:hover {
   cursor: pointer;
+  filter: brightness(90%);
 }
-.saliksik {
-  background-image: url(saliksik-uphsl.com_.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.project-title {
+  font-family: serif;
+}
+/* badge colors */
+.badge-html {
+  background-color: rgb(227, 79, 38);
+}
+.badge-CSS {
+  background-color: rgb(27, 115, 186);
+}
+.badge-JS {
+  background-color: rgb(233, 202, 50);
+  color: black;
+}
+.badge-BS {
+  background-color: rgb(121, 82, 179);
+}
+.badge-PHP {
+  background-color: rgb(137, 147, 190);
+}
+.badge-MySQL {
+  background-color: rgb(0, 93, 119);
+}
+.badge:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+/* footer */
+
+#contact {
+  background: rgb(25, 24, 24);
+}
+#social-icons a {
+  font-size: 26px;
+  margin: 20px;
+  color: white;
+}
+
+#social-icons a:hover {
+  transform: scale(1.3);
+}
+
+#contact h1 {
+  font-family: "Permanent Marker";
+}
+
+.email {
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
