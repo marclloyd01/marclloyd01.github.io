@@ -41,17 +41,18 @@
   background-color: rgb(227, 79, 38);
 }
 .badge-CSS {
-  background-color: rgb(27, 115, 186);
-}
-.badge-JS {
-  background-color: rgb(233, 202, 50);
-  color: black;
+  background-color: rgb(38, 77, 228);
 }
 .badge-BS {
-  background-color: rgb(121, 82, 179);
+  background-color: rgb(116, 49, 249);
 }
+.badge-JS {
+  background-color: rgb(247, 223, 30);
+  color: black;
+}
+
 .badge-PHP {
-  background-color: rgb(137, 147, 190);
+  background-color: rgb(120, 124, 180);
 }
 .badge-MySQL {
   background-color: rgb(0, 93, 119);
