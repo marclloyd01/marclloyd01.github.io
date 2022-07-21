@@ -11,10 +11,11 @@
 .full-name {
   /* text-decoration: underline; */
   font-size: 35px;
+  font-family: "Open Sans", sans-serif;
 }
 .work-position {
   font-size: 25px;
-  font-family: "Kaushan Script";
+  font-family: "Kaushan Script", sans-serif;
 }
 #photo-container {
   width: 25%;
@@ -36,8 +37,11 @@
 .project-title {
   font-family: serif;
 }
+.section-heading {
+  font-family: "Open Sans";
+}
 /* badge colors */
-.badge-html {
+/* .badge-html {
   background-color: rgb(227, 79, 38);
 }
 .badge-CSS {
@@ -60,7 +64,7 @@
 .badge:hover {
   cursor: pointer;
   filter: brightness(90%);
-}
+} */
 
 /* footer */
 
